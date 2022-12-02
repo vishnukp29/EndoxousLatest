@@ -1,0 +1,134 @@
+.App {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.tableForAll {
+  margin: 1rem !important;
+}
+
+.subTableForAll {
+  margin: 0;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width: 992px) {
+  .mainsection {
+    width: 100%;
+  }
+
+  .section1 {
+    width: 50%;
+  }
+
+  /* .sideListItems{
+    width: 100%;
+  } */
+
+  .hideButton {
+    display: initial !important;
+  }
+
+  .section2-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section2 {
+    width: 100%;
+    left: 0;
+  }
+
+  .filterInput {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .addNewNursery {
+    width: 100%;
+    margin-bottom: 2rem;
+    color: white !important;
+  }
+
+  .btn-AllNurseries {
+    width: 100%;
+  }
+
+  .filterInputInAllOrders {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100;
+    flex-direction: column;
+  }
+
+  .tableForAll {
+    margin: 1rem !important;
+  }
+
+  .subTableForAll {
+    margin: 0;
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .categoryBtn {
+    width: 100%;
+    margin: 0 0 2rem 0 !important;
+  }
+
+  .categorySelection {
+    width: 100%;
+    margin: 0 0 2rem 0 !important;
+  }
+
+  .allOptions {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  /* .form-check {
+    margin-left: 3rem;
+  } */
+
+  .form-check-label {
+    margin: 0 !important;
+  }
+
+  .modeHolder {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .filterOption {
+    margin: 2rem 0 !important;
+  }
+
+  .gridHandler {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  .cardView {
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 1rem;
+  }
+}
